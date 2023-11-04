@@ -7,4 +7,5 @@ def binary(num):
             binary_strings(num-1,st  +"1")
     binary_strings(num,"")
 num=int(input("enter a number : \n"))
+print("\n\n")
 print(binary(num))
